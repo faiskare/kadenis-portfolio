@@ -27,6 +27,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.claude
 
 # Project context (private notes)
 PROJECT_CONTEXT.md
