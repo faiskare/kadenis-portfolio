@@ -20,7 +20,13 @@ const ThemeCustomizer = ({ isOpen = false, setIsOpen = () => {} }) => {
   // Apply theme to CSS variables (preview only)
   const applyTheme = (newTheme) => {
     const root = document.documentElement;
+    // Apply primary color to all variants
     root.style.setProperty('--color-primary', newTheme.primaryColor);
+    root.style.setProperty('--color-primary-light', newTheme.primaryColor);
+    root.style.setProperty('--color-primary-400', newTheme.primaryColor);
+    root.style.setProperty('--color-primary-dark', newTheme.primaryColor);
+    root.style.setProperty('--color-primary-darker', newTheme.primaryColor);
+    // Apply background colors
     root.style.setProperty('--color-bg-dark', newTheme.bgDark);
     root.style.setProperty('--color-bg-medium', newTheme.bgMedium);
     root.style.setProperty('--color-bg-light', newTheme.bgLight);
