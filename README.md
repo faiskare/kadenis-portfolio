@@ -200,7 +200,6 @@ This project is open source and available for personal use.
 ## Contact
 
 - **Email:** karelys@reakagency.com
-- **Phone:** +34 634 717 670
 - **LinkedIn:** [linkedin.com/in/karelys-denis](https://linkedin.com/in/karelys-denis)
 - **Location:** Chile / Spain / France
 
