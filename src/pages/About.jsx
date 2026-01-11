@@ -45,7 +45,7 @@ const About = () => {
               <div className="aspect-square bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
                 {!imageError ? (
                   <img
-                    src="/images/k.jpg"
+                    src="/images/profile.jpg"
                     alt="Karelys Denis"
                     loading="lazy"
                     onError={handleImageError}
